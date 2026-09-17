@@ -56,6 +56,12 @@ is 2K-only; see the note in `RERUN_NOTES.md` (Step 0b) on why SPEED-Bench's
 license kept a context-axis acceptance sweep out of the redistributable
 package.
 
+A 3-point pilot at concurrency 1, 25, and 50 preceded the final 8-point
+concurrency ladder the article cites. It was superseded and is not published
+here because several of its runs fell below the 60-second duration floor
+that the acceptance gate later enforced; it is retained offline rather than
+republished, so a reader can't mistake its numbers for the final ladder's.
+
 ## Traces
 
 ShareGPT, SWE-bench, CNN/DailyMail (short and long output), and EDGAR
