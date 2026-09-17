@@ -1,0 +1,19 @@
+*.key
+*.pem
+.env
+.env.*
+**/secrets*
+.DS_Store
+__MACOSX/
+._*
+# Too large for GitHub without LFS — kept in local share pack / Droplet
+results/raw_sweep.jsonl
+results_request_phase/raw_sweep.jsonl
+logs/sweep/*.bench.json
+
+# Unpublished draft and working material. This repo is public; these must
+# never be pushed. See WORKING_RULES.md.
+speculative-decoding-capacity-tax-scaffold.md
+WORKING_RULES.md
+research/
+archive/
