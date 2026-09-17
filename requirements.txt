@@ -1,0 +1,10 @@
+# harness/ and analysis/ use only the Python 3 standard library:
+# argparse, itertools, json, os, re, signal, subprocess, sys, time,
+# datetime, pathlib, csv, statistics, collections, urllib.request,
+# urllib.error. No third-party Python packages are imported.
+#
+# To reproduce the sweep itself (not just re-tabulate the published
+# results), you need vLLM installed and runnable via its CLI on the
+# target GPU. harness/sweep_runner.py drives it as a subprocess
+# (`vllm serve ...`, `vllm bench serve ...`); it does not import vllm.
+vllm==0.27.1
