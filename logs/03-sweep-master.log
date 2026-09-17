@@ -1,0 +1,721 @@
+===== 2026-09-09T13:38:08Z PREDOWNLOAD START =====
+download Qwen/Qwen3-14B
+done Qwen/Qwen3-14B
+download Qwen/Qwen3-0.6B
+done Qwen/Qwen3-0.6B
+download Qwen/Qwen3-1.7B
+done Qwen/Qwen3-1.7B
+download RedHatAI/Qwen3-14B-speculator.eagle3
+done RedHatAI/Qwen3-14B-speculator.eagle3
+===== 2026-09-09T13:38:29Z PREDOWNLOAD END =====
+===== 2026-09-09T13:38:29Z SWEEP START =====
+=== BOOT baseline 2K @ 2026-09-09T13:38:30Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 618736.0,
+    "concurrency_multiplier": 302.12,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 2048.0,
+    "pool_crosscheck_rel_err": 9.30921488151909e-06,
+    "pool_implied_from_concurrency": 618741.76
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 50, 100, 200, 302] ceiling 302
+RUN baseline 2K sharegpt c=1 n=50
+RUN baseline 2K sharegpt c=5 n=50
+RUN baseline 2K sharegpt c=25 n=200
+RUN baseline 2K sharegpt c=50 n=400
+RUN baseline 2K sharegpt c=100 n=800
+RUN baseline 2K sharegpt c=200 n=1600
+RUN baseline 2K sharegpt c=302 n=2416
+RUN baseline 2K swebench c=1 n=50
+RUN baseline 2K swebench c=5 n=50
+RUN baseline 2K swebench c=25 n=200
+RUN baseline 2K swebench c=50 n=400
+RUN baseline 2K swebench c=100 n=800
+RUN baseline 2K swebench c=200 n=1600
+RUN baseline 2K swebench c=302 n=2416
+RUN baseline 2K cnn_short c=1 n=50
+RUN baseline 2K cnn_short c=5 n=50
+RUN baseline 2K cnn_short c=25 n=200
+RUN baseline 2K cnn_short c=50 n=400
+RUN baseline 2K cnn_short c=100 n=800
+RUN baseline 2K cnn_short c=200 n=1600
+RUN baseline 2K cnn_short c=302 n=2416
+RUN baseline 2K cnn_long c=1 n=50
+RUN baseline 2K cnn_long c=5 n=50
+RUN baseline 2K cnn_long c=25 n=200
+RUN baseline 2K cnn_long c=50 n=400
+RUN baseline 2K cnn_long c=100 n=800
+RUN baseline 2K cnn_long c=200 n=1600
+RUN baseline 2K cnn_long c=302 n=2416
+RUN baseline 2K edgar_json c=1 n=50
+RUN baseline 2K edgar_json c=5 n=50
+RUN baseline 2K edgar_json c=25 n=200
+RUN baseline 2K edgar_json c=50 n=400
+RUN baseline 2K edgar_json c=100 n=800
+RUN baseline 2K edgar_json c=200 n=1600
+RUN baseline 2K edgar_json c=302 n=2416
+=== BOOT ngram 2K @ 2026-09-09T14:37:29Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 601312.0,
+    "concurrency_multiplier": 293.61,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 2048.0,
+    "pool_crosscheck_rel_err": 2.128674091528362e-06,
+    "pool_implied_from_concurrency": 601313.28
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 50, 100, 200, 293] ceiling 293
+RUN ngram 2K sharegpt c=1 n=50
+RUN ngram 2K sharegpt c=5 n=50
+RUN ngram 2K sharegpt c=25 n=200
+RUN ngram 2K sharegpt c=50 n=400
+RUN ngram 2K sharegpt c=100 n=800
+RUN ngram 2K sharegpt c=200 n=1600
+RUN ngram 2K sharegpt c=293 n=2344
+RUN ngram 2K swebench c=1 n=50
+RUN ngram 2K swebench c=5 n=50
+RUN ngram 2K swebench c=25 n=200
+RUN ngram 2K swebench c=50 n=400
+RUN ngram 2K swebench c=100 n=800
+RUN ngram 2K swebench c=200 n=1600
+RUN ngram 2K swebench c=293 n=2344
+RUN ngram 2K cnn_short c=1 n=50
+RUN ngram 2K cnn_short c=5 n=50
+RUN ngram 2K cnn_short c=25 n=200
+RUN ngram 2K cnn_short c=50 n=400
+RUN ngram 2K cnn_short c=100 n=800
+RUN ngram 2K cnn_short c=200 n=1600
+RUN ngram 2K cnn_short c=293 n=2344
+RUN ngram 2K cnn_long c=1 n=50
+RUN ngram 2K cnn_long c=5 n=50
+RUN ngram 2K cnn_long c=25 n=200
+RUN ngram 2K cnn_long c=50 n=400
+RUN ngram 2K cnn_long c=100 n=800
+RUN ngram 2K cnn_long c=200 n=1600
+RUN ngram 2K cnn_long c=293 n=2344
+RUN ngram 2K edgar_json c=1 n=50
+RUN ngram 2K edgar_json c=5 n=50
+RUN ngram 2K edgar_json c=25 n=200
+RUN ngram 2K edgar_json c=50 n=400
+RUN ngram 2K edgar_json c=100 n=800
+RUN ngram 2K edgar_json c=200 n=1600
+RUN ngram 2K edgar_json c=293 n=2344
+=== BOOT eagle3 2K @ 2026-09-09T15:37:56Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 581184.0,
+    "concurrency_multiplier": 283.78,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 2048.0,
+    "pool_crosscheck_rel_err": 4.404820635799863e-06,
+    "pool_implied_from_concurrency": 581181.44
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 50, 100, 200, 283] ceiling 283
+RUN eagle3 2K sharegpt c=1 n=50
+RUN eagle3 2K sharegpt c=5 n=50
+RUN eagle3 2K sharegpt c=25 n=200
+RUN eagle3 2K sharegpt c=50 n=400
+RUN eagle3 2K sharegpt c=100 n=800
+RUN eagle3 2K sharegpt c=200 n=1600
+RUN eagle3 2K sharegpt c=283 n=2264
+RUN eagle3 2K swebench c=1 n=50
+RUN eagle3 2K swebench c=5 n=50
+RUN eagle3 2K swebench c=25 n=200
+RUN eagle3 2K swebench c=50 n=400
+RUN eagle3 2K swebench c=100 n=800
+RUN eagle3 2K swebench c=200 n=1600
+RUN eagle3 2K swebench c=283 n=2264
+RUN eagle3 2K cnn_short c=1 n=50
+RUN eagle3 2K cnn_short c=5 n=50
+RUN eagle3 2K cnn_short c=25 n=200
+RUN eagle3 2K cnn_short c=50 n=400
+RUN eagle3 2K cnn_short c=100 n=800
+RUN eagle3 2K cnn_short c=200 n=1600
+RUN eagle3 2K cnn_short c=283 n=2264
+RUN eagle3 2K cnn_long c=1 n=50
+RUN eagle3 2K cnn_long c=5 n=50
+RUN eagle3 2K cnn_long c=25 n=200
+RUN eagle3 2K cnn_long c=50 n=400
+RUN eagle3 2K cnn_long c=100 n=800
+RUN eagle3 2K cnn_long c=200 n=1600
+RUN eagle3 2K cnn_long c=283 n=2264
+RUN eagle3 2K edgar_json c=1 n=50
+RUN eagle3 2K edgar_json c=5 n=50
+RUN eagle3 2K edgar_json c=25 n=200
+RUN eagle3 2K edgar_json c=50 n=400
+RUN eagle3 2K edgar_json c=100 n=800
+RUN eagle3 2K edgar_json c=200 n=1600
+RUN eagle3 2K edgar_json c=283 n=2264
+=== BOOT draft-0.6B 2K @ 2026-09-09T17:02:32Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 347568.0,
+    "concurrency_multiplier": 169.71,
+    "attention_backend": "FLASH_ATTN",
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 2048.0,
+    "pool_crosscheck_rel_err": 5.524129397160108e-06,
+    "pool_implied_from_concurrency": 347566.08
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 50, 100, 169] ceiling 169
+RUN draft-0.6B 2K sharegpt c=1 n=50
+RUN draft-0.6B 2K sharegpt c=5 n=50
+RUN draft-0.6B 2K sharegpt c=25 n=200
+RUN draft-0.6B 2K sharegpt c=50 n=400
+RUN draft-0.6B 2K sharegpt c=100 n=800
+RUN draft-0.6B 2K sharegpt c=169 n=1352
+RUN draft-0.6B 2K swebench c=1 n=50
+RUN draft-0.6B 2K swebench c=5 n=50
+RUN draft-0.6B 2K swebench c=25 n=200
+RUN draft-0.6B 2K swebench c=50 n=400
+RUN draft-0.6B 2K swebench c=100 n=800
+RUN draft-0.6B 2K swebench c=169 n=1352
+RUN draft-0.6B 2K cnn_short c=1 n=50
+RUN draft-0.6B 2K cnn_short c=5 n=50
+RUN draft-0.6B 2K cnn_short c=25 n=200
+RUN draft-0.6B 2K cnn_short c=50 n=400
+RUN draft-0.6B 2K cnn_short c=100 n=800
+RUN draft-0.6B 2K cnn_short c=169 n=1352
+RUN draft-0.6B 2K cnn_long c=1 n=50
+RUN draft-0.6B 2K cnn_long c=5 n=50
+RUN draft-0.6B 2K cnn_long c=25 n=200
+RUN draft-0.6B 2K cnn_long c=50 n=400
+RUN draft-0.6B 2K cnn_long c=100 n=800
+RUN draft-0.6B 2K cnn_long c=169 n=1352
+RUN draft-0.6B 2K edgar_json c=1 n=50
+RUN draft-0.6B 2K edgar_json c=5 n=50
+RUN draft-0.6B 2K edgar_json c=25 n=200
+RUN draft-0.6B 2K edgar_json c=50 n=400
+RUN draft-0.6B 2K edgar_json c=100 n=800
+RUN draft-0.6B 2K edgar_json c=169 n=1352
+=== BOOT baseline 8K @ 2026-09-09T17:44:38Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 618736.0,
+    "concurrency_multiplier": 75.53,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 8192.0,
+    "pool_crosscheck_rel_err": 9.30921488151909e-06,
+    "pool_implied_from_concurrency": 618741.76
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 50, 75] ceiling 75
+RUN baseline 8K sharegpt c=1 n=50
+RUN baseline 8K sharegpt c=5 n=50
+RUN baseline 8K sharegpt c=25 n=200
+RUN baseline 8K sharegpt c=50 n=400
+RUN baseline 8K sharegpt c=75 n=600
+RUN baseline 8K swebench c=1 n=50
+RUN baseline 8K swebench c=5 n=50
+RUN baseline 8K swebench c=25 n=200
+RUN baseline 8K swebench c=50 n=400
+RUN baseline 8K swebench c=75 n=600
+RUN baseline 8K cnn_short c=1 n=50
+RUN baseline 8K cnn_short c=5 n=50
+RUN baseline 8K cnn_short c=25 n=200
+RUN baseline 8K cnn_short c=50 n=400
+RUN baseline 8K cnn_short c=75 n=600
+RUN baseline 8K cnn_long c=1 n=50
+RUN baseline 8K cnn_long c=5 n=50
+RUN baseline 8K cnn_long c=25 n=200
+RUN baseline 8K cnn_long c=50 n=400
+RUN baseline 8K cnn_long c=75 n=600
+RUN baseline 8K edgar_json c=1 n=50
+RUN baseline 8K edgar_json c=5 n=50
+RUN baseline 8K edgar_json c=25 n=200
+RUN baseline 8K edgar_json c=50 n=400
+RUN baseline 8K edgar_json c=75 n=600
+=== BOOT ngram 8K @ 2026-09-09T18:36:06Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 601184.0,
+    "concurrency_multiplier": 73.39,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 8192.0,
+    "pool_crosscheck_rel_err": 4.47097697234033e-05,
+    "pool_implied_from_concurrency": 601210.88
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 50, 73] ceiling 73
+RUN ngram 8K sharegpt c=1 n=50
+RUN ngram 8K sharegpt c=5 n=50
+RUN ngram 8K sharegpt c=25 n=200
+RUN ngram 8K sharegpt c=50 n=400
+RUN ngram 8K sharegpt c=73 n=584
+RUN ngram 8K swebench c=1 n=50
+RUN ngram 8K swebench c=5 n=50
+RUN ngram 8K swebench c=25 n=200
+RUN ngram 8K swebench c=50 n=400
+RUN ngram 8K swebench c=73 n=584
+RUN ngram 8K cnn_short c=1 n=50
+RUN ngram 8K cnn_short c=5 n=50
+RUN ngram 8K cnn_short c=25 n=200
+RUN ngram 8K cnn_short c=50 n=400
+RUN ngram 8K cnn_short c=73 n=584
+RUN ngram 8K cnn_long c=1 n=50
+RUN ngram 8K cnn_long c=5 n=50
+RUN ngram 8K cnn_long c=25 n=200
+RUN ngram 8K cnn_long c=50 n=400
+RUN ngram 8K cnn_long c=73 n=584
+RUN ngram 8K edgar_json c=1 n=50
+RUN ngram 8K edgar_json c=5 n=50
+RUN ngram 8K edgar_json c=25 n=200
+RUN ngram 8K edgar_json c=50 n=400
+RUN ngram 8K edgar_json c=73 n=584
+=== BOOT eagle3 8K @ 2026-09-09T19:25:47Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 581184.0,
+    "concurrency_multiplier": 70.95,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 8192.0,
+    "pool_crosscheck_rel_err": 6.606765327699565e-05,
+    "pool_implied_from_concurrency": 581222.4
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 50, 70] ceiling 70
+RUN eagle3 8K sharegpt c=1 n=50
+RUN eagle3 8K sharegpt c=5 n=50
+RUN eagle3 8K sharegpt c=25 n=200
+RUN eagle3 8K sharegpt c=50 n=400
+RUN eagle3 8K sharegpt c=70 n=560
+RUN eagle3 8K swebench c=1 n=50
+RUN eagle3 8K swebench c=5 n=50
+RUN eagle3 8K swebench c=25 n=200
+RUN eagle3 8K swebench c=50 n=400
+RUN eagle3 8K swebench c=70 n=560
+RUN eagle3 8K cnn_short c=1 n=50
+RUN eagle3 8K cnn_short c=5 n=50
+RUN eagle3 8K cnn_short c=25 n=200
+RUN eagle3 8K cnn_short c=50 n=400
+RUN eagle3 8K cnn_short c=70 n=560
+RUN eagle3 8K cnn_long c=1 n=50
+RUN eagle3 8K cnn_long c=5 n=50
+RUN eagle3 8K cnn_long c=25 n=200
+RUN eagle3 8K cnn_long c=50 n=400
+RUN eagle3 8K cnn_long c=70 n=560
+RUN eagle3 8K edgar_json c=1 n=50
+RUN eagle3 8K edgar_json c=5 n=50
+RUN eagle3 8K edgar_json c=25 n=200
+RUN eagle3 8K edgar_json c=50 n=400
+RUN eagle3 8K edgar_json c=70 n=560
+=== BOOT draft-0.6B 8K @ 2026-09-09T20:35:09Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 352672.0,
+    "concurrency_multiplier": 43.05,
+    "attention_backend": "FLASH_ATTN",
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 8192.0,
+    "pool_crosscheck_rel_err": 1.8147502903666486e-05,
+    "pool_implied_from_concurrency": 352665.6
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 43] ceiling 43
+RUN draft-0.6B 8K sharegpt c=1 n=50
+RUN draft-0.6B 8K sharegpt c=5 n=50
+RUN draft-0.6B 8K sharegpt c=25 n=200
+RUN draft-0.6B 8K sharegpt c=43 n=344
+RUN draft-0.6B 8K swebench c=1 n=50
+RUN draft-0.6B 8K swebench c=5 n=50
+RUN draft-0.6B 8K swebench c=25 n=200
+RUN draft-0.6B 8K swebench c=43 n=344
+RUN draft-0.6B 8K cnn_short c=1 n=50
+RUN draft-0.6B 8K cnn_short c=5 n=50
+RUN draft-0.6B 8K cnn_short c=25 n=200
+RUN draft-0.6B 8K cnn_short c=43 n=344
+RUN draft-0.6B 8K cnn_long c=1 n=50
+RUN draft-0.6B 8K cnn_long c=5 n=50
+RUN draft-0.6B 8K cnn_long c=25 n=200
+RUN draft-0.6B 8K cnn_long c=43 n=344
+RUN draft-0.6B 8K edgar_json c=1 n=50
+RUN draft-0.6B 8K edgar_json c=5 n=50
+RUN draft-0.6B 8K edgar_json c=25 n=200
+RUN draft-0.6B 8K edgar_json c=43 n=344
+=== BOOT baseline 32K @ 2026-09-09T21:08:36Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 618736.0,
+    "concurrency_multiplier": 18.88,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 32768.0,
+    "pool_crosscheck_rel_err": 0.0001231048066737815,
+    "pool_implied_from_concurrency": 618659.84
+  }
+}
+CONCURRENCY_POINTS [1, 5, 18] ceiling 18
+RUN baseline 32K sharegpt c=1 n=50
+RUN baseline 32K sharegpt c=5 n=50
+RUN baseline 32K sharegpt c=18 n=64
+RUN baseline 32K swebench c=1 n=50
+RUN baseline 32K swebench c=5 n=50
+RUN baseline 32K swebench c=18 n=64
+RUN baseline 32K cnn_short c=1 n=50
+RUN baseline 32K cnn_short c=5 n=50
+RUN baseline 32K cnn_short c=18 n=64
+RUN baseline 32K cnn_long c=1 n=50
+RUN baseline 32K cnn_long c=5 n=50
+RUN baseline 32K cnn_long c=18 n=64
+RUN baseline 32K edgar_json c=1 n=50
+RUN baseline 32K edgar_json c=5 n=50
+RUN baseline 32K edgar_json c=18 n=64
+=== BOOT ngram 32K @ 2026-09-09T21:26:52Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 601184.0,
+    "concurrency_multiplier": 18.35,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 32768.0,
+    "pool_crosscheck_rel_err": 0.00018094346049054064,
+    "pool_implied_from_concurrency": 601292.8
+  }
+}
+CONCURRENCY_POINTS [1, 5, 18] ceiling 18
+RUN ngram 32K sharegpt c=1 n=50
+RUN ngram 32K sharegpt c=5 n=50
+RUN ngram 32K sharegpt c=18 n=64
+RUN ngram 32K swebench c=1 n=50
+RUN ngram 32K swebench c=5 n=50
+RUN ngram 32K swebench c=18 n=64
+RUN ngram 32K cnn_short c=1 n=50
+RUN ngram 32K cnn_short c=5 n=50
+RUN ngram 32K cnn_short c=18 n=64
+RUN ngram 32K cnn_long c=1 n=50
+RUN ngram 32K cnn_long c=5 n=50
+RUN ngram 32K cnn_long c=18 n=64
+RUN ngram 32K edgar_json c=1 n=50
+RUN ngram 32K edgar_json c=5 n=50
+RUN ngram 32K edgar_json c=18 n=64
+=== BOOT eagle3 32K @ 2026-09-09T21:42:22Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 581184.0,
+    "concurrency_multiplier": 17.74,
+    "attention_backend": null,
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 32768.0,
+    "pool_crosscheck_rel_err": 0.0002069828072152445,
+    "pool_implied_from_concurrency": 581304.32
+  }
+}
+CONCURRENCY_POINTS [1, 5, 17] ceiling 17
+RUN eagle3 32K sharegpt c=1 n=50
+RUN eagle3 32K sharegpt c=5 n=50
+RUN eagle3 32K sharegpt c=17 n=64
+RUN eagle3 32K swebench c=1 n=50
+RUN eagle3 32K swebench c=5 n=50
+RUN eagle3 32K swebench c=17 n=64
+RUN eagle3 32K cnn_short c=1 n=50
+RUN eagle3 32K cnn_short c=5 n=50
+RUN eagle3 32K cnn_short c=17 n=64
+RUN eagle3 32K cnn_long c=1 n=50
+RUN eagle3 32K cnn_long c=5 n=50
+RUN eagle3 32K cnn_long c=17 n=64
+RUN eagle3 32K edgar_json c=1 n=50
+RUN eagle3 32K edgar_json c=5 n=50
+RUN eagle3 32K edgar_json c=17 n=64
+=== BOOT draft-0.6B 32K @ 2026-09-09T22:03:22Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 347536.0,
+    "concurrency_multiplier": 10.61,
+    "attention_backend": "FLASH_ATTN",
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 32768.0,
+    "pool_crosscheck_rel_err": 0.0003810526625824158,
+    "pool_implied_from_concurrency": 347668.48
+  }
+}
+CONCURRENCY_POINTS [1, 5, 10] ceiling 10
+RUN draft-0.6B 32K sharegpt c=1 n=50
+RUN draft-0.6B 32K sharegpt c=5 n=50
+RUN draft-0.6B 32K sharegpt c=10 n=64
+RUN draft-0.6B 32K swebench c=1 n=50
+RUN draft-0.6B 32K swebench c=5 n=50
+RUN draft-0.6B 32K swebench c=10 n=64
+RUN draft-0.6B 32K cnn_short c=1 n=50
+RUN draft-0.6B 32K cnn_short c=5 n=50
+RUN draft-0.6B 32K cnn_short c=10 n=64
+RUN draft-0.6B 32K cnn_long c=1 n=50
+RUN draft-0.6B 32K cnn_long c=5 n=50
+RUN draft-0.6B 32K cnn_long c=10 n=64
+RUN draft-0.6B 32K edgar_json c=1 n=50
+RUN draft-0.6B 32K edgar_json c=5 n=50
+RUN draft-0.6B 32K edgar_json c=10 n=64
+=== BOOT baseline 128K @ 2026-09-09T22:20:20Z ===
+{
+  "status": "boot_failed",
+  "boot_parse": {
+    "kv_cache_tokens": null,
+    "concurrency_multiplier": null,
+    "attention_backend": null,
+    "rope_factor": 4.0,
+    "startup_complete": false,
+    "suspect": true,
+    "suspect_reasons": [
+      "missing pool tokens or concurrency multiplier"
+    ]
+  }
+}
+BOOT_FAILED — skipping runs for this config
+=== BOOT ngram 128K @ 2026-09-09T22:20:35Z ===
+{
+  "status": "boot_failed",
+  "boot_parse": {
+    "kv_cache_tokens": null,
+    "concurrency_multiplier": null,
+    "attention_backend": null,
+    "rope_factor": 4.0,
+    "startup_complete": false,
+    "suspect": true,
+    "suspect_reasons": [
+      "missing pool tokens or concurrency multiplier"
+    ]
+  }
+}
+BOOT_FAILED — skipping runs for this config
+=== BOOT eagle3 128K @ 2026-09-09T22:20:50Z ===
+{
+  "status": "boot_failed",
+  "boot_parse": {
+    "kv_cache_tokens": null,
+    "concurrency_multiplier": null,
+    "attention_backend": null,
+    "rope_factor": 4.0,
+    "startup_complete": false,
+    "suspect": true,
+    "suspect_reasons": [
+      "missing pool tokens or concurrency multiplier"
+    ]
+  }
+}
+BOOT_FAILED — skipping runs for this config
+=== BOOT draft-0.6B 128K @ 2026-09-09T22:21:05Z ===
+{
+  "status": "boot_failed",
+  "boot_parse": {
+    "kv_cache_tokens": null,
+    "concurrency_multiplier": null,
+    "attention_backend": null,
+    "rope_factor": 4.0,
+    "startup_complete": false,
+    "suspect": true,
+    "suspect_reasons": [
+      "missing pool tokens or concurrency multiplier"
+    ]
+  }
+}
+BOOT_FAILED — skipping runs for this config
+=== BOOT draft-1.7B 8K @ 2026-09-09T22:21:20Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 342576.0,
+    "concurrency_multiplier": 41.82,
+    "attention_backend": "FLASH_ATTN",
+    "rope_factor": null,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 8192.0,
+    "pool_crosscheck_rel_err": 3.92306312769078e-05,
+    "pool_implied_from_concurrency": 342589.44
+  }
+}
+CONCURRENCY_POINTS [1, 5, 25, 41] ceiling 41
+RUN draft-1.7B 8K sharegpt c=1 n=50
+RUN draft-1.7B 8K sharegpt c=5 n=50
+RUN draft-1.7B 8K sharegpt c=25 n=200
+RUN draft-1.7B 8K sharegpt c=41 n=328
+RUN draft-1.7B 8K swebench c=1 n=50
+RUN draft-1.7B 8K swebench c=5 n=50
+RUN draft-1.7B 8K swebench c=25 n=200
+RUN draft-1.7B 8K swebench c=41 n=328
+RUN draft-1.7B 8K cnn_short c=1 n=50
+RUN draft-1.7B 8K cnn_short c=5 n=50
+RUN draft-1.7B 8K cnn_short c=25 n=200
+RUN draft-1.7B 8K cnn_short c=41 n=328
+RUN draft-1.7B 8K cnn_long c=1 n=50
+RUN draft-1.7B 8K cnn_long c=5 n=50
+RUN draft-1.7B 8K cnn_long c=25 n=200
+RUN draft-1.7B 8K cnn_long c=41 n=328
+RUN draft-1.7B 8K edgar_json c=1 n=50
+RUN draft-1.7B 8K edgar_json c=5 n=50
+RUN draft-1.7B 8K edgar_json c=25 n=200
+RUN draft-1.7B 8K edgar_json c=41 n=328
+SWEEP_FINISHED 2026-09-09T22:54:43Z
+===== 2026-09-09T22:54:43Z SWEEP END rc=0 =====
+===== 2026-09-10T08:09:52Z 128K_RERUN START (hf-overrides YaRN factor 4.0) =====
+RESUME_SKIP [('baseline', '2K'), ('baseline', '32K'), ('baseline', '8K'), ('draft-0.6B', '2K'), ('draft-0.6B', '32K'), ('draft-0.6B', '8K'), ('draft-1.7B', '8K'), ('eagle3', '2K'), ('eagle3', '32K'), ('eagle3', '8K'), ('ngram', '2K'), ('ngram', '32K'), ('ngram', '8K')]
+RESUME_REMAINING [('baseline', '128K'), ('ngram', '128K'), ('eagle3', '128K'), ('draft-0.6B', '128K')]
+=== BOOT baseline 128K @ 2026-09-10T08:09:52Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 618496.0,
+    "concurrency_multiplier": 4.72,
+    "attention_backend": null,
+    "rope_factor": 4.0,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 131072.0,
+    "pool_crosscheck_rel_err": 0.0002648305084745236,
+    "pool_implied_from_concurrency": 618659.84
+  }
+}
+CONCURRENCY_POINTS [1, 4] ceiling 4
+RUN baseline 128K sharegpt c=1 n=50
+RUN baseline 128K sharegpt c=4 n=50
+RUN baseline 128K swebench c=1 n=50
+RUN baseline 128K swebench c=4 n=50
+RUN baseline 128K cnn_short c=1 n=50
+RUN baseline 128K cnn_short c=4 n=50
+RUN baseline 128K cnn_long c=1 n=50
+RUN baseline 128K cnn_long c=4 n=50
+RUN baseline 128K edgar_json c=1 n=50
+RUN baseline 128K edgar_json c=4 n=50
+=== BOOT ngram 128K @ 2026-09-10T08:25:43Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 600880.0,
+    "concurrency_multiplier": 4.58,
+    "attention_backend": null,
+    "rope_factor": 4.0,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 131072.0,
+    "pool_crosscheck_rel_err": 0.0009499095933405958,
+    "pool_implied_from_concurrency": 600309.76
+  }
+}
+CONCURRENCY_POINTS [1, 4] ceiling 4
+RUN ngram 128K sharegpt c=1 n=50
+RUN ngram 128K sharegpt c=4 n=50
+RUN ngram 128K swebench c=1 n=50
+RUN ngram 128K swebench c=4 n=50
+RUN ngram 128K cnn_short c=1 n=50
+RUN ngram 128K cnn_short c=4 n=50
+RUN ngram 128K cnn_long c=1 n=50
+RUN ngram 128K cnn_long c=4 n=50
+RUN ngram 128K edgar_json c=1 n=50
+RUN ngram 128K edgar_json c=4 n=50
+=== BOOT eagle3 128K @ 2026-09-10T08:39:18Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 580768.0,
+    "concurrency_multiplier": 4.43,
+    "attention_backend": null,
+    "rope_factor": 4.0,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 131072.0,
+    "pool_crosscheck_rel_err": 0.00020501199209938697,
+    "pool_implied_from_concurrency": 580648.96
+  }
+}
+CONCURRENCY_POINTS [1, 4] ceiling 4
+RUN eagle3 128K sharegpt c=1 n=50
+RUN eagle3 128K sharegpt c=4 n=50
+RUN eagle3 128K swebench c=1 n=50
+RUN eagle3 128K swebench c=4 n=50
+RUN eagle3 128K cnn_short c=1 n=50
+RUN eagle3 128K cnn_short c=4 n=50
+RUN eagle3 128K cnn_long c=1 n=50
+RUN eagle3 128K cnn_long c=4 n=50
+RUN eagle3 128K edgar_json c=1 n=50
+RUN eagle3 128K edgar_json c=4 n=50
+=== BOOT draft-0.6B 128K @ 2026-09-10T08:56:57Z ===
+{
+  "status": "ok",
+  "boot_parse": {
+    "kv_cache_tokens": 347280.0,
+    "concurrency_multiplier": 2.65,
+    "attention_backend": "FLASH_ATTN",
+    "rope_factor": 4.0,
+    "startup_complete": true,
+    "suspect": false,
+    "suspect_reasons": [],
+    "concurrency_context_tokens": 131072.0,
+    "pool_crosscheck_rel_err": 0.0001750442216980797,
+    "pool_implied_from_concurrency": 347340.8
+  }
+}
+CONCURRENCY_POINTS [1, 2] ceiling 2
+RUN draft-0.6B 128K sharegpt c=1 n=50
+RUN draft-0.6B 128K sharegpt c=2 n=50
+RUN draft-0.6B 128K swebench c=1 n=50
+RUN draft-0.6B 128K swebench c=2 n=50
+RUN draft-0.6B 128K cnn_short c=1 n=50
+RUN draft-0.6B 128K cnn_short c=2 n=50
+RUN draft-0.6B 128K cnn_long c=1 n=50
+RUN draft-0.6B 128K cnn_long c=2 n=50
+RUN draft-0.6B 128K edgar_json c=1 n=50
+RUN draft-0.6B 128K edgar_json c=2 n=50
+SWEEP_FINISHED 2026-09-10T09:12:18Z
+128K_RERUN_EXIT 0 2026-09-10T09:12:18Z

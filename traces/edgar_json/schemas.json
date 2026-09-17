@@ -1,0 +1,32 @@
+{
+  "company_profile": [
+    "address",
+    "cik",
+    "company_name",
+    "fiscal_year_end",
+    "former_names",
+    "sic_code",
+    "sic_description",
+    "state_of_incorporation",
+    "ticker"
+  ],
+  "filing_summary": [
+    "accession_number",
+    "documents",
+    "filing_date",
+    "form_type",
+    "is_amended",
+    "period_of_report"
+  ],
+  "officers_and_signatories": [
+    "filer_cik",
+    "principal_executive_offices",
+    "signatories"
+  ],
+  "financial_highlights": [
+    "currency",
+    "entity",
+    "metrics",
+    "period"
+  ]
+}

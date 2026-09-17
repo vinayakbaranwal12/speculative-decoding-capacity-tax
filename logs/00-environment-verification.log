@@ -1,0 +1,104 @@
+===== 2026-09-09T13:13:34Z POST-REBUILD INVENTORY =====
+ml-ai-ubuntu-gpu-h200x1-141gb-atl1
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.5 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+Linux ml-ai-ubuntu-gpu-h200x1-141gb-atl1 5.15.0-185-generic #195-Ubuntu SMP Fri Jun 19 17:11:50 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+Wed Sep  9 13:13:34 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.173.02             Driver Version: 580.173.02     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H200                    On  |   00000000:83:00.0 Off |                    0 |
+| N/A   27C    P0             81W /  700W |       0MiB / 143771MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+/usr/bin/python3
+Python 3.10.12
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/vda1       698G   16G  682G   3% /
+               total        used        free      shared  buff/cache   available
+Mem:           235Gi       709Mi       234Gi       4.0Mi       1.1Gi       233Gi
+Swap:             0B          0B          0B
+/usr/local/cuda:
+DOCS
+EULA.txt
+README
+bin
+compute-sanitizer
+doc
+extras
+gds
+include
+lib64
+nsightee_plugins
+nvml
+nvvm
+share
+src
+targets
+tools
+version.json
+
+/usr/local/cuda-13:
+DOCS
+EULA.txt
+README
+bin
+compute-sanitizer
+doc
+extras
+gds
+include
+lib64
+nsightee_plugins
+nvml
+nvvm
+share
+src
+targets
+tools
+version.json
+
+/usr/local/cuda-13.1:
+DOCS
+EULA.txt
+README
+bin
+compute-sanitizer
+doc
+extras
+gds
+include
+lib64
+nsightee_plugins
+nvml
+nvvm
+share
+src
+targets
+tools
+version.json
+containerd
+digitalocean
+nvidia

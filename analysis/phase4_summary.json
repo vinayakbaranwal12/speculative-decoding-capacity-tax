@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-09-10T10:55:26Z",
+  "raw_rows": 350,
+  "manifest_ok_boots": {
+    "baseline@128K": 4.72,
+    "baseline@2K": 302.12,
+    "baseline@32K": 18.88,
+    "baseline@8K": 75.53,
+    "draft-0.6B@128K": 2.65,
+    "draft-0.6B@2K": 169.71,
+    "draft-0.6B@32K": 10.61,
+    "draft-0.6B@8K": 43.05,
+    "draft-1.7B@8K": 41.82,
+    "eagle3@128K": 4.43,
+    "eagle3@2K": 283.78,
+    "eagle3@32K": 17.74,
+    "eagle3@8K": 70.95,
+    "ngram@128K": 4.58,
+    "ngram@2K": 293.61,
+    "ngram@32K": 18.35,
+    "ngram@8K": 73.39
+  },
+  "t2_rows": 17,
+  "t3_rows": 350,
+  "t4_rows": 20,
+  "t5_rows": 323,
+  "h200_rate": {
+    "usd_per_gpu_hr": 4.47,
+    "source": "https://docs.digitalocean.com/products/droplets/details/pricing/ NVIDIA H200 $4.47/hr",
+    "verified_at_utc": "2026-09-10T10:35:00Z"
+  }
+}

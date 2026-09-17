@@ -1,0 +1,29 @@
+===== 2026-09-09T13:19:13Z SMOKE START =====
+download Qwen/Qwen3-14B
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 18 files:  39%|███▉      | 7/18 [00:15<00:23,  2.17s/it]Fetching 18 files:  50%|█████     | 9/18 [00:18<00:17,  1.95s/it]Fetching 18 files:  61%|██████    | 11/18 [00:18<00:09,  1.39s/it]Fetching 18 files:  72%|███████▏  | 13/18 [00:28<00:12,  2.46s/it]Fetching 18 files:  78%|███████▊  | 14/18 [00:28<00:08,  2.18s/it]Fetching 18 files:  83%|████████▎ | 15/18 [00:31<00:06,  2.27s/it]Fetching 18 files:  89%|████████▉ | 16/18 [00:31<00:03,  1.81s/it]Fetching 18 files:  94%|█████████▍| 17/18 [00:32<00:01,  1.63s/it]Fetching 18 files: 100%|██████████| 18/18 [00:33<00:00,  1.44s/it]Fetching 18 files: 100%|██████████| 18/18 [00:33<00:00,  1.88s/it]
+done Qwen/Qwen3-14B
+download Qwen/Qwen3-0.6B
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  80%|████████  | 8/10 [00:00<00:00, 65.73it/s]Fetching 10 files: 100%|██████████| 10/10 [00:02<00:00,  4.08it/s]
+done Qwen/Qwen3-0.6B
+SERVER_PID=5749
+/root/mktg3389/scripts/02_smoke_test.sh: line 39: SERVER_PID: unbound variable
+===== 2026-09-09T13:31:26Z SMOKE START (attempt2) =====
+ensure Qwen/Qwen3-14B
+done Qwen/Qwen3-14B
+ensure Qwen/Qwen3-0.6B
+done Qwen/Qwen3-0.6B
+SERVER_PID=6620
+still waiting iter=6 mem=31837 MiB
+(EngineCore pid=6684) INFO 09-09 13:31:58 [backends.py:1094] Using cache directory: /root/.cache/vllm/torch_compile_cache/db0fa761df/rank_0_0/backbone for vLLM's torch.compile
+(EngineCore pid=6684) INFO 09-09 13:31:58 [backends.py:1155] Dynamo bytecode transform time: 7.09 s
+(EngineCore pid=6684) INFO 09-09 13:32:18 [backends.py:393] Compiling a graph for compile range (1, 8192) takes 19.96 s
+still waiting iter=12 mem=31827 MiB
+(EngineCore pid=6684) INFO 09-09 13:32:49 [decorators.py:708] saved AOT compiled function to /root/.cache/vllm/torch_compile_cache/torch_aot_compile/68810f8312393e7456935ccc7228a1df4cdcbf32743c22b905b5334ecc4094a7/rank_0_0/model
+(EngineCore pid=6684) INFO 09-09 13:32:49 [monitor.py:53] torch.compile took 26.14 s in total
+(EngineCore pid=6684) INFO 09-09 13:32:49 [monitor.py:81] Initial profiling/warmup run took 0.07 s
+READY at iter 17
+{"object":"list","data":[{"id":"Qwen/Qwen3-14B","object":"model","created":1788960850,"owned_by":"vllm","root":"Qwen/Qwen3-14B","parent":null,"max_model_len":8192,"permission":[{"id":"modelperm-b7b15c146465abef","object":"model_permission","created":1788960850,"allow_create_engine":false,"allow_sampling":true,"allow_logprobs":true,"allow_search_indices":false,"allow_view":true,"allow_fine_tuning":false,"organization":"*","group":null,"is_blocking":false}]}]}
+{"id":"cmpl-ba68487b89a323fa","object":"text_completion","created":1788960850,"model":"Qwen/Qwen3-14B","choices":[{"index":0,"text":" Hello, how are you today?","logprobs":null,"finish_reason":"stop","stop_reason":null,"token_ids":null,"prompt_logprobs":null,"prompt_token_ids":null,"routed_experts":null}],"service_tier":null,"system_fingerprint":"vllm-0.27.1-fb25c06c","usage":{"prompt_tokens":7,"total_tokens":15,"completion_tokens":8,"prompt_tokens_details":null},"kv_transfer_params":null,"ec_transfer_params":null,"metrics":null}
+=== BOOT EXCERPTS ===
+===== 2026-09-09T13:35:12Z SMOKE END =====

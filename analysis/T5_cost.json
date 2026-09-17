@@ -1,0 +1,2909 @@
+[
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 107.36116941902627,
+    "cost_per_1M_output_tokens_USD": 11.565323602432946,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 451.6312722305965,
+    "cost_per_1M_output_tokens_USD": 2.7492929365455656,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1329.1917838517056,
+    "cost_per_1M_output_tokens_USD": 0.9341516263880217,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1720.0977422475303,
+    "cost_per_1M_output_tokens_USD": 0.7218582038508279,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 2043.318192532594,
+    "cost_per_1M_output_tokens_USD": 0.6076717131988537,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 2214.0261717094754,
+    "cost_per_1M_output_tokens_USD": 0.56081842325647,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 302,
+    "output_tok_s": 2250.540777123184,
+    "cost_per_1M_output_tokens_USD": 0.551719248674917,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 107.38126585113785,
+    "cost_per_1M_output_tokens_USD": 11.563159149082702,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 451.1621309271535,
+    "cost_per_1M_output_tokens_USD": 2.752151791009142,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1328.948296427376,
+    "cost_per_1M_output_tokens_USD": 0.9343227799039666,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1721.6185754817427,
+    "cost_per_1M_output_tokens_USD": 0.7212205330203433,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 2041.5733707519034,
+    "cost_per_1M_output_tokens_USD": 0.6081910571792801,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 2215.9821599600077,
+    "cost_per_1M_output_tokens_USD": 0.5603234038170575,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 302,
+    "output_tok_s": 2251.9719310722394,
+    "cost_per_1M_output_tokens_USD": 0.5513686247747623,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 98.14357312772496,
+    "cost_per_1M_output_tokens_USD": 12.651533127398471,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 323.1334443656956,
+    "cost_per_1M_output_tokens_USD": 3.842581720700663,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 608.0016492531186,
+    "cost_per_1M_output_tokens_USD": 2.0422093726093586,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 676.1614440450259,
+    "cost_per_1M_output_tokens_USD": 1.836346448916989,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 720.4431144564376,
+    "cost_per_1M_output_tokens_USD": 1.723476346364256,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 736.5761116188694,
+    "cost_per_1M_output_tokens_USD": 1.685727580735267,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 302,
+    "output_tok_s": 738.0582887926968,
+    "cost_per_1M_output_tokens_USD": 1.6823422831518684,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 107.36685390681902,
+    "cost_per_1M_output_tokens_USD": 11.564711281791658,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 451.0085215321039,
+    "cost_per_1M_output_tokens_USD": 2.7530891488450107,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1327.9255465696947,
+    "cost_per_1M_output_tokens_USD": 0.9350423823640923,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1720.0938073973673,
+    "cost_per_1M_output_tokens_USD": 0.7218598551583665,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 2042.99128974009,
+    "cost_per_1M_output_tokens_USD": 0.6077689478669446,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 2215.711789251594,
+    "cost_per_1M_output_tokens_USD": 0.5603917768953458,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 302,
+    "output_tok_s": 2253.05417914428,
+    "cost_per_1M_output_tokens_USD": 0.5511037764472477,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 135.779353677408,
+    "cost_per_1M_output_tokens_USD": 9.144738379125636,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 424.5223729584595,
+    "cost_per_1M_output_tokens_USD": 2.924855663115231,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1392.7610290927632,
+    "cost_per_1M_output_tokens_USD": 0.8915145101923777,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1695.8247001322723,
+    "cost_per_1M_output_tokens_USD": 0.7321904596446898,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1888.107132847579,
+    "cost_per_1M_output_tokens_USD": 0.6576251130379595,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 1954.7700184251685,
+    "cost_per_1M_output_tokens_USD": 0.6351983378929645,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 293,
+    "output_tok_s": 1969.5063459170365,
+    "cost_per_1M_output_tokens_USD": 0.6304456287946232,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 149.7802098970875,
+    "cost_per_1M_output_tokens_USD": 8.289924733847037,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 540.4109310575096,
+    "cost_per_1M_output_tokens_USD": 2.2976342544309682,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1399.858537989897,
+    "cost_per_1M_output_tokens_USD": 0.886994387625493,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1700.7621736011758,
+    "cost_per_1M_output_tokens_USD": 0.7300648414807902,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1886.937286688279,
+    "cost_per_1M_output_tokens_USD": 0.6580328214542243,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 1953.8824229751829,
+    "cost_per_1M_output_tokens_USD": 0.6354868911589762,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 293,
+    "output_tok_s": 1962.6132070452413,
+    "cost_per_1M_output_tokens_USD": 0.6326598955970667,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 114.35422264260289,
+    "cost_per_1M_output_tokens_USD": 10.858074480968762,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 326.2587112977241,
+    "cost_per_1M_output_tokens_USD": 3.805773221281427,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 610.1920596726766,
+    "cost_per_1M_output_tokens_USD": 2.0348784402942415,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 676.8145284816367,
+    "cost_per_1M_output_tokens_USD": 1.8345744874186096,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 707.2183483913427,
+    "cost_per_1M_output_tokens_USD": 1.755704825095381,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 710.3242123553684,
+    "cost_per_1M_output_tokens_USD": 1.7480280765728322,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 293,
+    "output_tok_s": 710.458293972969,
+    "cost_per_1M_output_tokens_USD": 1.7476981790487882,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 149.91951096055138,
+    "cost_per_1M_output_tokens_USD": 8.282221965047558,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 541.2745337920152,
+    "cost_per_1M_output_tokens_USD": 2.293968382306671,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1338.6032660998376,
+    "cost_per_1M_output_tokens_USD": 0.9275837719150305,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1702.7869691786932,
+    "cost_per_1M_output_tokens_USD": 0.7291967164075497,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1883.7488790686025,
+    "cost_per_1M_output_tokens_USD": 0.6591465988187312,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 1957.0068411326472,
+    "cost_per_1M_output_tokens_USD": 0.6344723179138368,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 293,
+    "output_tok_s": 1969.5349116152138,
+    "cost_per_1M_output_tokens_USD": 0.630436484950844,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 117.33679397076688,
+    "cost_per_1M_output_tokens_USD": 10.582074255207736,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 386.75113917616403,
+    "cost_per_1M_output_tokens_USD": 3.2105055186433233,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 989.980764919102,
+    "cost_per_1M_output_tokens_USD": 1.254233123173996,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1167.8618500364237,
+    "cost_per_1M_output_tokens_USD": 1.0631965301614579,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1172.1357909399228,
+    "cost_per_1M_output_tokens_USD": 1.0593198128273074,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 1198.736224577407,
+    "cost_per_1M_output_tokens_USD": 1.035813084821387,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 283,
+    "output_tok_s": 1204.5413546777424,
+    "cost_per_1M_output_tokens_USD": 1.0308211186313787,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 118.49858251010554,
+    "cost_per_1M_output_tokens_USD": 10.478325059802108,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 504.103879753893,
+    "cost_per_1M_output_tokens_USD": 2.46311666411466,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 999.6901578092813,
+    "cost_per_1M_output_tokens_USD": 1.2420515066264652,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1152.6647906938,
+    "cost_per_1M_output_tokens_USD": 1.0772140145959483,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1179.0236808722925,
+    "cost_per_1M_output_tokens_USD": 1.0531312363022498,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 1198.8375022770738,
+    "cost_per_1M_output_tokens_USD": 1.0357255794119244,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 283,
+    "output_tok_s": 1208.785355118687,
+    "cost_per_1M_output_tokens_USD": 1.02720194400829,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 108.81059984682805,
+    "cost_per_1M_output_tokens_USD": 11.411265707702674,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 312.17901153455773,
+    "cost_per_1M_output_tokens_USD": 3.9774187911067043,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 520.9947436781666,
+    "cost_per_1M_output_tokens_USD": 2.383261408552098,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 552.019709722644,
+    "cost_per_1M_output_tokens_USD": 2.2493158211516175,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 559.8968171054762,
+    "cost_per_1M_output_tokens_USD": 2.2176705220182655,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 565.170853924884,
+    "cost_per_1M_output_tokens_USD": 2.196975760593087,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 283,
+    "output_tok_s": 566.5335098156445,
+    "cost_per_1M_output_tokens_USD": 2.1916914801221856,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 113.8432415710444,
+    "cost_per_1M_output_tokens_USD": 10.906810536414662,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 433.89601837917075,
+    "cost_per_1M_output_tokens_USD": 2.861668727233181,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1015.543761614284,
+    "cost_per_1M_output_tokens_USD": 1.2226619015343494,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1148.5566366330183,
+    "cost_per_1M_output_tokens_USD": 1.081066990572271,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1165.0330456768438,
+    "cost_per_1M_output_tokens_USD": 1.0657780663597411,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 200,
+    "output_tok_s": 1203.8321602642043,
+    "cost_per_1M_output_tokens_USD": 1.0314283898132102,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 283,
+    "output_tok_s": 1204.1177048527377,
+    "cost_per_1M_output_tokens_USD": 1.031183796785482,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 155.24436193253726,
+    "cost_per_1M_output_tokens_USD": 7.99814338640036,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 461.9790064125293,
+    "cost_per_1M_output_tokens_USD": 2.687712319026693,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1285.8052046738521,
+    "cost_per_1M_output_tokens_USD": 0.965672453458157,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1437.031127895592,
+    "cost_per_1M_output_tokens_USD": 0.8640499447530969,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1498.9757328974847,
+    "cost_per_1M_output_tokens_USD": 0.8283434077125147,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "2K",
+    "concurrency": 169,
+    "output_tok_s": 1525.191961641778,
+    "cost_per_1M_output_tokens_USD": 0.8141051735744047,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 151.3758162528118,
+    "cost_per_1M_output_tokens_USD": 8.202543163123012,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 546.7581225822886,
+    "cost_per_1M_output_tokens_USD": 2.270961537438874,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1283.8228674359948,
+    "cost_per_1M_output_tokens_USD": 0.9671635380248982,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1458.2758638599773,
+    "cost_per_1M_output_tokens_USD": 0.8514621255405285,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1496.908785404907,
+    "cost_per_1M_output_tokens_USD": 0.8294871930561897,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "2K",
+    "concurrency": 169,
+    "output_tok_s": 1529.8197514987955,
+    "cost_per_1M_output_tokens_USD": 0.8116424601330847,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 123.90923670358953,
+    "cost_per_1M_output_tokens_USD": 10.0207756879088,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 355.4727152460642,
+    "cost_per_1M_output_tokens_USD": 3.4930013286875305,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 559.5360429701791,
+    "cost_per_1M_output_tokens_USD": 2.219100417688092,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 593.2157075939813,
+    "cost_per_1M_output_tokens_USD": 2.093111579433276,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 602.7426671039105,
+    "cost_per_1M_output_tokens_USD": 2.0600278268546863,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "2K",
+    "concurrency": 169,
+    "output_tok_s": 605.9307370161204,
+    "cost_per_1M_output_tokens_USD": 2.0491891082819143,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 1,
+    "output_tok_s": 153.65068177940765,
+    "cost_per_1M_output_tokens_USD": 8.081100925079499,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 5,
+    "output_tok_s": 578.1386691085777,
+    "cost_per_1M_output_tokens_USD": 2.1476969678938302,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 25,
+    "output_tok_s": 1270.724042558503,
+    "cost_per_1M_output_tokens_USD": 0.9771332130984697,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 50,
+    "output_tok_s": 1448.4815876641426,
+    "cost_per_1M_output_tokens_USD": 0.8572195029893402,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 100,
+    "output_tok_s": 1497.4409971051523,
+    "cost_per_1M_output_tokens_USD": 0.829192381581012,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "2K",
+    "concurrency": 169,
+    "output_tok_s": 1532.302189693155,
+    "cost_per_1M_output_tokens_USD": 0.8103275417986002,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 100.62861069838027,
+    "cost_per_1M_output_tokens_USD": 12.339101752963511,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 364.2549445290225,
+    "cost_per_1M_output_tokens_USD": 3.4087846584268813,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 782.2460971836288,
+    "cost_per_1M_output_tokens_USD": 1.5873095067359484,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 911.2107512630513,
+    "cost_per_1M_output_tokens_USD": 1.3626558564476574,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 75,
+    "output_tok_s": 962.1877362144567,
+    "cost_per_1M_output_tokens_USD": 1.2904619544952487,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 100.607885410203,
+    "cost_per_1M_output_tokens_USD": 12.341643615747289,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 363.94425919753803,
+    "cost_per_1M_output_tokens_USD": 3.411694607862264,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 782.9649723616841,
+    "cost_per_1M_output_tokens_USD": 1.5858521268472392,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 910.5029918769947,
+    "cost_per_1M_output_tokens_USD": 1.363715086874103,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 75,
+    "output_tok_s": 962.7469203500643,
+    "cost_per_1M_output_tokens_USD": 1.289712426413355,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 82.85040958852818,
+    "cost_per_1M_output_tokens_USD": 14.986850069098429,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 202.68525542667624,
+    "cost_per_1M_output_tokens_USD": 6.12608284728365,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 291.10869487862567,
+    "cost_per_1M_output_tokens_USD": 4.265302577734289,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 307.3082694457112,
+    "cost_per_1M_output_tokens_USD": 4.040459662560491,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 75,
+    "output_tok_s": 311.3600589107121,
+    "cost_per_1M_output_tokens_USD": 3.9878803691475917,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 92.59714599428494,
+    "cost_per_1M_output_tokens_USD": 13.4093405723682,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 270.2069118671581,
+    "cost_per_1M_output_tokens_USD": 4.595243911736453,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 450.3546076607402,
+    "cost_per_1M_output_tokens_USD": 2.757086628060071,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 492.6688672716151,
+    "cost_per_1M_output_tokens_USD": 2.52028644217561,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 75,
+    "output_tok_s": 505.9459490786254,
+    "cost_per_1M_output_tokens_USD": 2.4541488452034392,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 102.05927752787998,
+    "cost_per_1M_output_tokens_USD": 12.16613223944756,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 383.79298070911057,
+    "cost_per_1M_output_tokens_USD": 3.2352511095239826,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 881.6860126973311,
+    "cost_per_1M_output_tokens_USD": 1.4082866789142443,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 1045.2763958113521,
+    "cost_per_1M_output_tokens_USD": 1.1878835795415381,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 75,
+    "output_tok_s": 1115.109371895386,
+    "cost_per_1M_output_tokens_USD": 1.1134931675411956,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 121.95861729347713,
+    "cost_per_1M_output_tokens_USD": 10.18104906583814,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 335.26001179410986,
+    "cost_per_1M_output_tokens_USD": 3.7035931008354193,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 787.8545872651223,
+    "cost_per_1M_output_tokens_USD": 1.5760099474407596,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 873.8406606116212,
+    "cost_per_1M_output_tokens_USD": 1.4209302938565431,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 73,
+    "output_tok_s": 909.2560896094332,
+    "cost_per_1M_output_tokens_USD": 1.36558520845323,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 132.2923940319105,
+    "cost_per_1M_output_tokens_USD": 9.385775166841125,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 392.1297549376467,
+    "cost_per_1M_output_tokens_USD": 3.166468881873314,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 792.8836971095849,
+    "cost_per_1M_output_tokens_USD": 1.5660136173730095,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 877.2541810126653,
+    "cost_per_1M_output_tokens_USD": 1.4154012526145374,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 73,
+    "output_tok_s": 909.3386888767559,
+    "cost_per_1M_output_tokens_USD": 1.365461166290431,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 103.26663180187384,
+    "cost_per_1M_output_tokens_USD": 12.023890437802928,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 216.31364145413193,
+    "cost_per_1M_output_tokens_USD": 5.7401218819107855,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 293.08504226163177,
+    "cost_per_1M_output_tokens_USD": 4.23654055179743,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 302.38947764927764,
+    "cost_per_1M_output_tokens_USD": 4.106183443680528,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 73,
+    "output_tok_s": 305.0527163593383,
+    "cost_per_1M_output_tokens_USD": 4.070334732584513,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 131.12070305167205,
+    "cost_per_1M_output_tokens_USD": 9.469646194448412,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 286.9392112606368,
+    "cost_per_1M_output_tokens_USD": 4.327281242642079,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 442.06488173155026,
+    "cost_per_1M_output_tokens_USD": 2.8087882977790697,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 470.0343840331132,
+    "cost_per_1M_output_tokens_USD": 2.6416507150234207,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 73,
+    "output_tok_s": 474.5726188026211,
+    "cost_per_1M_output_tokens_USD": 2.616389183597393,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 142.4935582075044,
+    "cost_per_1M_output_tokens_USD": 8.713844206616733,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 430.15716097044765,
+    "cost_per_1M_output_tokens_USD": 2.8865418952120403,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 898.6181461701301,
+    "cost_per_1M_output_tokens_USD": 1.3817511608891873,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 996.0071895010719,
+    "cost_per_1M_output_tokens_USD": 1.2466442810404337,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 73,
+    "output_tok_s": 1032.8163524198787,
+    "cost_per_1M_output_tokens_USD": 1.202214376018983,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 93.29397725143981,
+    "cost_per_1M_output_tokens_USD": 13.309183542686878,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 286.52254164170927,
+    "cost_per_1M_output_tokens_USD": 4.333574103985669,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 564.8479189961045,
+    "cost_per_1M_output_tokens_USD": 2.198231815872601,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 572.9665826945159,
+    "cost_per_1M_output_tokens_USD": 2.1670839175775742,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 70,
+    "output_tok_s": 578.2533110178623,
+    "cost_per_1M_output_tokens_USD": 2.147271175120537,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 93.73202287468783,
+    "cost_per_1M_output_tokens_USD": 13.246984633273891,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 310.0643785465283,
+    "cost_per_1M_output_tokens_USD": 4.004544709350874,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 558.8655224981028,
+    "cost_per_1M_output_tokens_USD": 2.221762869028804,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 572.1786340299577,
+    "cost_per_1M_output_tokens_USD": 2.17006821439903,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 70,
+    "output_tok_s": 576.4114546619642,
+    "cost_per_1M_output_tokens_USD": 2.154132532627827,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 79.07513718949609,
+    "cost_per_1M_output_tokens_USD": 15.702365001165031,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 186.6860911537928,
+    "cost_per_1M_output_tokens_USD": 6.651093603131774,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 244.40997712699874,
+    "cost_per_1M_output_tokens_USD": 5.080261784982206,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 249.31406204093813,
+    "cost_per_1M_output_tokens_USD": 4.980331460255865,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 70,
+    "output_tok_s": 251.23305985953482,
+    "cost_per_1M_output_tokens_USD": 4.942290108478901,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 75.37198202313324,
+    "cost_per_1M_output_tokens_USD": 16.47384921210607,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 219.66833636747012,
+    "cost_per_1M_output_tokens_USD": 5.652460828899602,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 304.94832407965026,
+    "cost_per_1M_output_tokens_USD": 4.07172812119588,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 307.54444220875774,
+    "cost_per_1M_output_tokens_USD": 4.0373568702758,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 70,
+    "output_tok_s": 303.29883355075236,
+    "cost_per_1M_output_tokens_USD": 4.093872212201875,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 99.08424867582708,
+    "cost_per_1M_output_tokens_USD": 12.53142334185744,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 345.84950396099146,
+    "cost_per_1M_output_tokens_USD": 3.5901935739272153,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 593.7739928457898,
+    "cost_per_1M_output_tokens_USD": 2.091143569147768,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 50,
+    "output_tok_s": 628.6862708833823,
+    "cost_per_1M_output_tokens_USD": 1.9750179448359364,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 70,
+    "output_tok_s": 630.3194907314064,
+    "cost_per_1M_output_tokens_USD": 1.9699004789235834,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 128.93076305559956,
+    "cost_per_1M_output_tokens_USD": 9.630491879825573,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 366.6296969339254,
+    "cost_per_1M_output_tokens_USD": 3.386705106134492,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 682.6013181571212,
+    "cost_per_1M_output_tokens_USD": 1.819021782757325,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 43,
+    "output_tok_s": 707.3768151992351,
+    "cost_per_1M_output_tokens_USD": 1.7553115114706535,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 137.44113945412957,
+    "cost_per_1M_output_tokens_USD": 9.034170348107946,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 423.63835315356926,
+    "cost_per_1M_output_tokens_USD": 2.9309590536921037,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 680.0665261892389,
+    "cost_per_1M_output_tokens_USD": 1.8258017691656743,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 43,
+    "output_tok_s": 711.4528428345716,
+    "cost_per_1M_output_tokens_USD": 1.7452550498211747,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 98.24573261079344,
+    "cost_per_1M_output_tokens_USD": 12.638377603489467,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 213.40476981177918,
+    "cost_per_1M_output_tokens_USD": 5.818364171343517,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 258.4856557075789,
+    "cost_per_1M_output_tokens_USD": 4.803619230892046,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 43,
+    "output_tok_s": 260.9200099859039,
+    "cost_per_1M_output_tokens_USD": 4.75880200500432,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 110.4449757178062,
+    "cost_per_1M_output_tokens_USD": 11.242400648800922,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 266.59128173351706,
+    "cost_per_1M_output_tokens_USD": 4.65756666381847,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 364.24720805137264,
+    "cost_per_1M_output_tokens_USD": 3.4088570597678944,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 43,
+    "output_tok_s": 372.2758307297973,
+    "cost_per_1M_output_tokens_USD": 3.3353405302529153,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 140.5803684651331,
+    "cost_per_1M_output_tokens_USD": 8.832432865436871,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 424.1753073065271,
+    "cost_per_1M_output_tokens_USD": 2.927248817360756,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 757.0084612683719,
+    "cost_per_1M_output_tokens_USD": 1.6402282539699058,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 43,
+    "output_tok_s": 810.9145782671017,
+    "cost_per_1M_output_tokens_USD": 1.5311929270282307,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 100.7073496451336,
+    "cost_per_1M_output_tokens_USD": 12.329454315320337,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 364.22846652098775,
+    "cost_per_1M_output_tokens_USD": 3.409032463955199,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 660.095862465186,
+    "cost_per_1M_output_tokens_USD": 1.881039917489489,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 100.74678585237226,
+    "cost_per_1M_output_tokens_USD": 12.324628087749852,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 364.25405150066183,
+    "cost_per_1M_output_tokens_USD": 3.408793015619788,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 660.1179832699345,
+    "cost_per_1M_output_tokens_USD": 1.8809768831262488,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 83.07878949153405,
+    "cost_per_1M_output_tokens_USD": 14.945651883784317,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 203.3963962519204,
+    "cost_per_1M_output_tokens_USD": 6.104664042959627,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 273.1593831710973,
+    "cost_per_1M_output_tokens_USD": 4.545575745018178,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 90.98438809920013,
+    "cost_per_1M_output_tokens_USD": 13.647029920263677,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 264.03960173377874,
+    "cost_per_1M_output_tokens_USD": 4.702577410787767,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 391.5867961081609,
+    "cost_per_1M_output_tokens_USD": 3.170859382918784,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 102.23084518091667,
+    "cost_per_1M_output_tokens_USD": 12.145714578308574,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 384.4027387863438,
+    "cost_per_1M_output_tokens_USD": 3.23011919890821,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 728.6310952056789,
+    "cost_per_1M_output_tokens_USD": 1.704108807374145,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 121.73784831888709,
+    "cost_per_1M_output_tokens_USD": 10.199512179763305,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 364.5475844898009,
+    "cost_per_1M_output_tokens_USD": 3.4060482622712462,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 698.2672312114436,
+    "cost_per_1M_output_tokens_USD": 1.7782112795304228,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 135.68902417820422,
+    "cost_per_1M_output_tokens_USD": 9.150826120143297,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 411.7116249337678,
+    "cost_per_1M_output_tokens_USD": 3.0158649682685397,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 656.9558901246373,
+    "cost_per_1M_output_tokens_USD": 1.8900304957020757,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 93.66960008734333,
+    "cost_per_1M_output_tokens_USD": 13.255812616994838,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 211.7971796569124,
+    "cost_per_1M_output_tokens_USD": 5.862526916921306,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 277.9814954995534,
+    "cost_per_1M_output_tokens_USD": 4.466724176856807,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 126.06594392236354,
+    "cost_per_1M_output_tokens_USD": 9.849342558616264,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 287.2539710385489,
+    "cost_per_1M_output_tokens_USD": 4.3225396055535725,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 392.18210022159303,
+    "cost_per_1M_output_tokens_USD": 3.1660462473047413,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 146.71880397420267,
+    "cost_per_1M_output_tokens_USD": 8.462900685075015,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 476.2305211961086,
+    "cost_per_1M_output_tokens_USD": 2.6072807419988027,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 18,
+    "output_tok_s": 753.0216266987908,
+    "cost_per_1M_output_tokens_USD": 1.6489123587460182,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 93.96451680843283,
+    "cost_per_1M_output_tokens_USD": 13.214207967440252,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 290.67627529227707,
+    "cost_per_1M_output_tokens_USD": 4.27164778211831,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 17,
+    "output_tok_s": 526.4427088654297,
+    "cost_per_1M_output_tokens_USD": 2.3585978982264977,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 92.73163020305445,
+    "cost_per_1M_output_tokens_USD": 13.389893652767551,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 309.5472484909872,
+    "cost_per_1M_output_tokens_USD": 4.01123470720438,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 17,
+    "output_tok_s": 522.7022560701187,
+    "cost_per_1M_output_tokens_USD": 2.375476004259108,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 75.03194899076836,
+    "cost_per_1M_output_tokens_USD": 16.548506114634403,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 191.03488015906092,
+    "cost_per_1M_output_tokens_USD": 6.499685636637773,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 17,
+    "output_tok_s": 240.2062842214077,
+    "cost_per_1M_output_tokens_USD": 5.169168120190282,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 73.05891923329304,
+    "cost_per_1M_output_tokens_USD": 16.995415203197222,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 211.55892241895842,
+    "cost_per_1M_output_tokens_USD": 5.869129283083345,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 17,
+    "output_tok_s": 277.33134998663246,
+    "cost_per_1M_output_tokens_USD": 4.47719548015944,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 91.1123979812539,
+    "cost_per_1M_output_tokens_USD": 13.62785629813119,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 325.54825226264563,
+    "cost_per_1M_output_tokens_USD": 3.8140787365214157,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 17,
+    "output_tok_s": 533.680385924558,
+    "cost_per_1M_output_tokens_USD": 2.3266110192818497,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 128.7796495808482,
+    "cost_per_1M_output_tokens_USD": 9.64179255579621,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 367.38355448856015,
+    "cost_per_1M_output_tokens_USD": 3.3797557116981145,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "32K",
+    "concurrency": 10,
+    "output_tok_s": 555.1324718096013,
+    "cost_per_1M_output_tokens_USD": 2.236703363107414,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 134.6029157887404,
+    "cost_per_1M_output_tokens_USD": 9.224663963561275,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 418.8846936951516,
+    "cost_per_1M_output_tokens_USD": 2.964220668254602,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "32K",
+    "concurrency": 10,
+    "output_tok_s": 537.2454313406296,
+    "cost_per_1M_output_tokens_USD": 2.311172127733578,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 92.28991024717726,
+    "cost_per_1M_output_tokens_USD": 13.453980650118183,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 214.66308104783622,
+    "cost_per_1M_output_tokens_USD": 5.784258106264531,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "32K",
+    "concurrency": 10,
+    "output_tok_s": 239.04426568740175,
+    "cost_per_1M_output_tokens_USD": 5.194295973158354,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 105.42072636791643,
+    "cost_per_1M_output_tokens_USD": 11.778202536124372,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 271.0469237933185,
+    "cost_per_1M_output_tokens_USD": 4.581002614932737,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "32K",
+    "concurrency": 10,
+    "output_tok_s": 305.0879170452136,
+    "cost_per_1M_output_tokens_USD": 4.069865102139242,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 1,
+    "output_tok_s": 137.974074959007,
+    "cost_per_1M_output_tokens_USD": 8.999275168437071,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 5,
+    "output_tok_s": 457.108507567316,
+    "cost_per_1M_output_tokens_USD": 2.7163499390433303,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "32K",
+    "concurrency": 10,
+    "output_tok_s": 596.0037985872602,
+    "cost_per_1M_output_tokens_USD": 2.0833200553584654,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 133.85971841530275,
+    "cost_per_1M_output_tokens_USD": 9.27587986413036,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 409.5636570379981,
+    "cost_per_1M_output_tokens_USD": 3.031681755277101,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 665.773503943918,
+    "cost_per_1M_output_tokens_USD": 1.8649986208692073,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "conversational",
+    "regime": "8K",
+    "concurrency": 41,
+    "output_tok_s": 695.8405893784482,
+    "cost_per_1M_output_tokens_USD": 1.7844125301396565,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 131.84206701022336,
+    "cost_per_1M_output_tokens_USD": 9.41783373716664,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 400.72781661236473,
+    "cost_per_1M_output_tokens_USD": 3.098528764894217,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 665.6956479069288,
+    "cost_per_1M_output_tokens_USD": 1.8652167406692504,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "code",
+    "regime": "8K",
+    "concurrency": 41,
+    "output_tok_s": 699.9737043092215,
+    "cost_per_1M_output_tokens_USD": 1.7738761599509258,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 96.17806448119055,
+    "cost_per_1M_output_tokens_USD": 12.910081663262192,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 197.46539602034687,
+    "cost_per_1M_output_tokens_USD": 6.288021555628537,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 247.14713090070066,
+    "cost_per_1M_output_tokens_USD": 5.0239979001234945,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "summarization-short",
+    "regime": "8K",
+    "concurrency": 41,
+    "output_tok_s": 249.46924753567404,
+    "cost_per_1M_output_tokens_USD": 4.977233382199177,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 110.66223840752873,
+    "cost_per_1M_output_tokens_USD": 11.220328492670285,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 277.6696040813561,
+    "cost_per_1M_output_tokens_USD": 4.471741409271657,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 361.32928721858286,
+    "cost_per_1M_output_tokens_USD": 3.436385343199517,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "summarization-long",
+    "regime": "8K",
+    "concurrency": 41,
+    "output_tok_s": 365.0515935713112,
+    "cost_per_1M_output_tokens_USD": 3.401345696150516,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 1,
+    "output_tok_s": 139.41022196733454,
+    "cost_per_1M_output_tokens_USD": 8.906568321493697,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 5,
+    "output_tok_s": 447.68328041773196,
+    "cost_per_1M_output_tokens_USD": 2.7735381707980493,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 25,
+    "output_tok_s": 747.8509058938423,
+    "cost_per_1M_output_tokens_USD": 1.6603131143935816,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft-1.7B",
+    "domain": "structured-JSON",
+    "regime": "8K",
+    "concurrency": 41,
+    "output_tok_s": 793.6588751929972,
+    "cost_per_1M_output_tokens_USD": 1.5644840692605189,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 100.37706111952586,
+    "cost_per_1M_output_tokens_USD": 12.370024115252077,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "conversational",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 308.18184639885044,
+    "cost_per_1M_output_tokens_USD": 4.02900651409459,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 100.35589477770532,
+    "cost_per_1M_output_tokens_USD": 12.372633111557992,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "code",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 308.24546323820516,
+    "cost_per_1M_output_tokens_USD": 4.028174992821012,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 82.85233401544396,
+    "cost_per_1M_output_tokens_USD": 14.986501966682264,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-short",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 186.48586333373285,
+    "cost_per_1M_output_tokens_USD": 6.658234809169394,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 90.71427469935495,
+    "cost_per_1M_output_tokens_USD": 13.687665704011808,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "summarization-long",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 234.63124178448103,
+    "cost_per_1M_output_tokens_USD": 5.291992051967195,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 101.88563011726386,
+    "cost_per_1M_output_tokens_USD": 12.186867424165582,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "baseline",
+    "domain": "structured-JSON",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 322.4687300285376,
+    "cost_per_1M_output_tokens_USD": 3.8505025481285653,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 126.09632660077872,
+    "cost_per_1M_output_tokens_USD": 9.846969377607536,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "conversational",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 281.4007034390722,
+    "cost_per_1M_output_tokens_USD": 4.412450471842931,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 122.3512762162633,
+    "cost_per_1M_output_tokens_USD": 10.148375277033855,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "code",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 344.3274784653734,
+    "cost_per_1M_output_tokens_USD": 3.6060632517643585,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 97.27243057148522,
+    "cost_per_1M_output_tokens_USD": 12.764836443088257,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-short",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 196.81368839587864,
+    "cost_per_1M_output_tokens_USD": 6.308843032142817,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 118.18998053951876,
+    "cost_per_1M_output_tokens_USD": 10.505684669704257,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "summarization-long",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 247.40324192693083,
+    "cost_per_1M_output_tokens_USD": 5.018797073942087,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 134.70359586142646,
+    "cost_per_1M_output_tokens_USD": 9.217769271311846,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "n-gram",
+    "domain": "structured-JSON",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 358.24446092330334,
+    "cost_per_1M_output_tokens_USD": 3.4659758966447645,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 94.18591268700328,
+    "cost_per_1M_output_tokens_USD": 13.183146303343136,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "conversational",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 250.68290424757072,
+    "cost_per_1M_output_tokens_USD": 4.953136594589694,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 95.12520372090881,
+    "cost_per_1M_output_tokens_USD": 13.052972483608404,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "code",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 286.68138277009473,
+    "cost_per_1M_output_tokens_USD": 4.331173007011851,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 75.86282837008902,
+    "cost_per_1M_output_tokens_USD": 16.367260400697468,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-short",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 176.60712852720795,
+    "cost_per_1M_output_tokens_USD": 7.030671281625965,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 72.14680211115095,
+    "cost_per_1M_output_tokens_USD": 17.210280017037036,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "summarization-long",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 184.1687663142047,
+    "cost_per_1M_output_tokens_USD": 6.7420045837104485,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 95.4683750419716,
+    "cost_per_1M_output_tokens_USD": 13.006052172992176,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "EAGLE3",
+    "domain": "structured-JSON",
+    "regime": "128K",
+    "concurrency": 4,
+    "output_tok_s": 295.1153902423773,
+    "cost_per_1M_output_tokens_USD": 4.207393811779487,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 131.86566292539572,
+    "cost_per_1M_output_tokens_USD": 9.41614851903601,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "conversational",
+    "regime": "128K",
+    "concurrency": 2,
+    "output_tok_s": 242.6491160449144,
+    "cost_per_1M_output_tokens_USD": 5.117128332900392,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 128.48213271184684,
+    "cost_per_1M_output_tokens_USD": 9.664119363985133,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "code",
+    "regime": "128K",
+    "concurrency": 2,
+    "output_tok_s": 238.73958398013983,
+    "cost_per_1M_output_tokens_USD": 5.200924982636972,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 89.99538115524379,
+    "cost_per_1M_output_tokens_USD": 13.797004365421456,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-short",
+    "regime": "128K",
+    "concurrency": 2,
+    "output_tok_s": 144.4594454944222,
+    "cost_per_1M_output_tokens_USD": 8.595261198857427,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 108.86300726111361,
+    "cost_per_1M_output_tokens_USD": 11.405772244454576,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "summarization-long",
+    "regime": "128K",
+    "concurrency": 2,
+    "output_tok_s": 168.93929274660067,
+    "cost_per_1M_output_tokens_USD": 7.349780187188873,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "128K",
+    "concurrency": 1,
+    "output_tok_s": 137.75032712579485,
+    "cost_per_1M_output_tokens_USD": 9.01389268958153,
+    "h200_usd_per_hr": 4.47
+  },
+  {
+    "arm": "separate-draft",
+    "domain": "structured-JSON",
+    "regime": "128K",
+    "concurrency": 2,
+    "output_tok_s": 242.33156040581088,
+    "cost_per_1M_output_tokens_USD": 5.1238339099841514,
+    "h200_usd_per_hr": 4.47
+  }
+]

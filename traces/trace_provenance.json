@@ -1,0 +1,6 @@
+{
+  "sharegpt": "HuggingFaceH4/ultrachat_200k",
+  "swebench": "princeton-nlp/SWE-bench_Lite",
+  "cnn": "abisee/cnn_dailymail:3.0.0",
+  "edgar": "data.sec.gov"
+}

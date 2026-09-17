@@ -1,0 +1,21 @@
+updated_utc=2026-09-10T10:51:01Z
+monitor_start_utc=2026-09-09T19:20:55Z
+tmux=dead
+0 MiB, 0 %
+procs=none
+--- counts ---
+       21 /root/mktg3389/results/run_manifest.jsonl
+      350 /root/mktg3389/results/raw_sweep.jsonl
+      371 total
+--- progress ---
+RUN draft-0.6B 128K sharegpt c=2 n=50
+RUN draft-0.6B 128K swebench c=1 n=50
+RUN draft-0.6B 128K swebench c=2 n=50
+RUN draft-0.6B 128K cnn_short c=1 n=50
+RUN draft-0.6B 128K cnn_short c=2 n=50
+RUN draft-0.6B 128K cnn_long c=1 n=50
+RUN draft-0.6B 128K cnn_long c=2 n=50
+RUN draft-0.6B 128K edgar_json c=1 n=50
+RUN draft-0.6B 128K edgar_json c=2 n=50
+SWEEP_FINISHED 2026-09-10T09:12:18Z
+sweep_state=FINISHED

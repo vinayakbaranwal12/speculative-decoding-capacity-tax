@@ -1,0 +1,4 @@
+Patched flashinfer/comm/fd_exchange.py for Python 3.10:
+- added `from __future__ import annotations`
+- removed runtime-evaluated `array.array[int]` return annotation on `_fd_ancillary`
+Required for vLLM 0.27.1 + flashinfer 0.6.16.post3 on this image.

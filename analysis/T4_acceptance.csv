@@ -1,0 +1,21 @@
+arm,domain,mean_accepted_length,median_accepted_length,std_accepted_length,n_samples,note
+separate-draft,code,1.8994580441672346,1.9026796656077056,0.014544052277046336,15,from /metrics scrapes; output-length dist not populated
+separate-draft,conversational,1.8827258671722014,1.8992984838198688,0.05350146655881447,15,from /metrics scrapes; output-length dist not populated
+separate-draft,structured-JSON,1.882538987629548,1.885309020176375,0.018037088970253374,15,from /metrics scrapes; output-length dist not populated
+separate-draft,summarization-long,1.873551483120827,1.8772531908005758,0.017548931335083034,15,from /metrics scrapes; output-length dist not populated
+separate-draft,summarization-short,1.8849719825736402,1.8879174071692386,0.024029106559425684,15,from /metrics scrapes; output-length dist not populated
+separate-draft-1.7B,code,2.094654679828238,2.0938203039866483,0.010753028804684176,4,from /metrics scrapes; output-length dist not populated
+separate-draft-1.7B,conversational,2.085136960061122,2.0898265956398534,0.012489202061000146,4,from /metrics scrapes; output-length dist not populated
+separate-draft-1.7B,structured-JSON,2.099846522983412,2.0973410122881786,0.005340716014089776,4,from /metrics scrapes; output-length dist not populated
+separate-draft-1.7B,summarization-long,2.0862940349375614,2.086509556081576,0.006520717290295917,4,from /metrics scrapes; output-length dist not populated
+separate-draft-1.7B,summarization-short,2.0954821083620865,2.0989872676835617,0.012672213721616627,4,from /metrics scrapes; output-length dist not populated
+EAGLE3,code,0.4050803056105448,0.39881287417489636,0.031223094337806,17,from /metrics scrapes; output-length dist not populated
+EAGLE3,conversational,0.4054083031525277,0.4074339338512111,0.040538152273912956,17,from /metrics scrapes; output-length dist not populated
+EAGLE3,structured-JSON,0.39075923798656337,0.36609607951408063,0.03999348898182192,17,from /metrics scrapes; output-length dist not populated
+EAGLE3,summarization-long,0.395304504084116,0.37873972224141506,0.03608095044225301,17,from /metrics scrapes; output-length dist not populated
+EAGLE3,summarization-short,0.4042632710807481,0.39542011682392963,0.03208566543569499,17,from /metrics scrapes; output-length dist not populated
+n-gram,code,2.1963390032665284,2.201944973061027,0.07831344007138442,17,from /metrics scrapes; output-length dist not populated
+n-gram,conversational,2.144578448912525,2.186422464140541,0.08414596426955304,17,from /metrics scrapes; output-length dist not populated
+n-gram,structured-JSON,2.224168390198075,2.2105962259854577,0.05250276589907544,17,from /metrics scrapes; output-length dist not populated
+n-gram,summarization-long,2.2194840211045754,2.2172767702646166,0.05410956180174676,17,from /metrics scrapes; output-length dist not populated
+n-gram,summarization-short,2.200467956187498,2.2032833567520704,0.06966823575089846,17,from /metrics scrapes; output-length dist not populated

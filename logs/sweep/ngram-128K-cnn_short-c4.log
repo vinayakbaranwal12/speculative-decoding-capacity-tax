@@ -1,0 +1,48 @@
+CMD vllm bench serve --backend openai --base-url http://127.0.0.1:8000 --model Qwen/Qwen3-14B --endpoint /v1/completions --dataset-name random --num-prompts 50 --max-concurrency 4 --random-input-len 4096 --random-output-len 64 --ignore-eos --save-result --result-filename /root/mktg3389/logs/sweep/ngram-128K-cnn_short-c4.bench.json --save-detailed
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Namespace(subparser='bench', bench_type='serve', dispatch_function=<function BenchmarkServingSubcommand.cmd at 0x7fdc27d3db40>, trust_remote_code=False, seed=0, num_prompts=50, dataset_name='random', no_stream=False, dataset_path=None, no_oversample=False, skip_chat_template=False, enable_multimodal_chat=False, disable_shuffle=False, custom_output_len=256, custom_ensure_client_side_data=False, spec_bench_output_len=256, spec_bench_category=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, timed_trace_chunk_hash_size=16, timed_trace_sec_multiplier=1, timed_trace_label_timestamp='timestamp', timed_trace_label_input_length='input_length', timed_trace_label_output_length='output_length', timed_trace_label_hash_ids='hash_ids', blazedit_min_distance=0.0, blazedit_max_distance=1.0, asr_max_audio_len_sec=inf, asr_min_audio_len_sec=0.0, random_input_len=4096, random_output_len=64, random_range_ratio='0.0', random_prefix_len=0, random_batch_size=1, no_reranker=False, random_mm_base_items_per_request=1, random_mm_num_mm_items_range_ratio=0.0, random_mm_limit_mm_per_prompt={'image': 255, 'video': 1}, random_mm_bucket_config={(256, 256, 1): 0.5, (720, 1280, 1): 0.5, (720, 1280, 16): 0.0}, hf_subset=None, hf_split=None, hf_name=None, hf_output_len=None, bfcl_categories=None, prefix_repetition_prefix_len=256, prefix_repetition_suffix_len=256, prefix_repetition_num_prefixes=10, prefix_repetition_output_len=128, speed_bench_dataset_subset='qualitative', speed_bench_output_len=4096, speed_bench_category=None, label=None, backend='openai', base_url='http://127.0.0.1:8000', host='127.0.0.1', port=8000, endpoint='/v1/completions', header=None, max_concurrency=4, model='Qwen/Qwen3-14B', input_len=None, output_len=None, tokenizer=None, tokenizer_mode='auto', use_beam_search=False, logprobs=None, request_rate=inf, burstiness=1.0, probe_request_rate=0.0, disable_tqdm=False, num_warmups=0, profile=False, save_result=True, save_detailed=True, append_result=False, metadata=None, result_dir=None, result_filename='/root/mktg3389/logs/sweep/ngram-128K-cnn_short-c4.bench.json', ignore_eos=True, self_timed=None, percentile_metrics=None, metric_percentiles='99', goodput=None, request_id_prefix='bench-1dfd8270-', top_p=None, top_k=None, min_p=None, temperature=None, frequency_penalty=None, presence_penalty=None, repetition_penalty=None, served_model_name=None, lora_modules=None, lora_assignment='random', ramp_up_strategy=None, ramp_up_start_rps=None, ramp_up_end_rps=None, ready_check_timeout_sec=0, chat_template_kwargs=None, extra_body=None, skip_tokenizer_init=False, insecure=False, plot_timeline=False, timeline_itl_thresholds='25,50', plot_dataset_stats=False)
+INFO 09-10 08:33:01 [utils.py:90] Sampling input_len from [4096, 4096] and output_len from [64, 64]
+WARNING: vllm bench serve no longer sets temperature==0 (greedy) in requests by default. The default will be determined on the server side and can be model/API specific. For the old behavior, include --temperature=0.
+Starting initial single prompt test run...
+Skipping endpoint ready check.
+Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: 4
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:00<00:48,  1.00it/s]  4%|▍         | 2/50 [00:01<00:26,  1.81it/s]  6%|▌         | 3/50 [00:01<00:26,  1.80it/s]  8%|▊         | 4/50 [00:02<00:19,  2.34it/s] 10%|█         | 5/50 [00:02<00:18,  2.39it/s] 12%|█▏        | 6/50 [00:02<00:15,  2.85it/s] 14%|█▍        | 7/50 [00:03<00:16,  2.67it/s] 16%|█▌        | 8/50 [00:03<00:16,  2.62it/s] 18%|█▊        | 9/50 [00:03<00:13,  2.94it/s] 20%|██        | 10/50 [00:04<00:14,  2.74it/s] 22%|██▏       | 11/50 [00:04<00:13,  2.93it/s] 24%|██▍       | 12/50 [00:04<00:11,  3.27it/s] 26%|██▌       | 13/50 [00:04<00:11,  3.14it/s] 28%|██▊       | 14/50 [00:05<00:10,  3.44it/s] 30%|███       | 15/50 [00:05<00:09,  3.56it/s] 32%|███▏      | 16/50 [00:05<00:11,  3.06it/s] 34%|███▍      | 17/50 [00:06<00:10,  3.02it/s] 36%|███▌      | 18/50 [00:06<00:10,  3.10it/s] 38%|███▊      | 19/50 [00:06<00:10,  2.93it/s] 40%|████      | 20/50 [00:07<00:09,  3.33it/s] 42%|████▏     | 21/50 [00:07<00:08,  3.44it/s] 44%|████▍     | 22/50 [00:07<00:08,  3.37it/s] 46%|████▌     | 23/50 [00:08<00:09,  2.86it/s] 48%|████▊     | 24/50 [00:08<00:09,  2.66it/s] 50%|█████     | 25/50 [00:08<00:08,  3.10it/s] 52%|█████▏    | 26/50 [00:09<00:07,  3.24it/s] 54%|█████▍    | 27/50 [00:09<00:07,  3.04it/s] 58%|█████▊    | 29/50 [00:09<00:05,  3.50it/s] 60%|██████    | 30/50 [00:10<00:05,  3.56it/s] 62%|██████▏   | 31/50 [00:10<00:06,  2.83it/s] 64%|██████▍   | 32/50 [00:11<00:06,  2.71it/s] 68%|██████▊   | 34/50 [00:11<00:04,  3.36it/s] 70%|███████   | 35/50 [00:11<00:04,  3.54it/s] 72%|███████▏  | 36/50 [00:12<00:04,  3.30it/s] 74%|███████▍  | 37/50 [00:12<00:03,  3.29it/s] 76%|███████▌  | 38/50 [00:12<00:03,  3.60it/s] 78%|███████▊  | 39/50 [00:13<00:03,  3.39it/s] 80%|████████  | 40/50 [00:13<00:03,  3.18it/s] 82%|████████▏ | 41/50 [00:13<00:02,  3.32it/s] 84%|████████▍ | 42/50 [00:13<00:02,  3.55it/s] 86%|████████▌ | 43/50 [00:14<00:02,  3.01it/s] 88%|████████▊ | 44/50 [00:14<00:02,  2.75it/s] 90%|█████████ | 45/50 [00:15<00:01,  3.01it/s] 92%|█████████▏| 46/50 [00:15<00:01,  3.25it/s] 94%|█████████▍| 47/50 [00:15<00:00,  3.24it/s] 96%|█████████▌| 48/50 [00:15<00:00,  3.83it/s] 98%|█████████▊| 49/50 [00:16<00:00,  3.31it/s]100%|██████████| 50/50 [00:16<00:00,  3.08it/s]
+tip: install termplotlib and gnuplot to plot the metrics
+============ Serving Benchmark Result ============
+Successful requests:                     50        
+Failed requests:                         0         
+Maximum request concurrency:             4         
+Benchmark duration (s):                  16.26     
+Total input tokens:                      204800    
+Total generated tokens:                  3200      
+Request throughput (req/s):              3.08      
+Output token throughput (tok/s):         196.81    
+Peak output token throughput (tok/s):    162.00    
+Peak concurrent requests:                8.00      
+Total token throughput (tok/s):          12792.89  
+---------------Time to First Token----------------
+Mean TTFT (ms):                          236.38    
+Median TTFT (ms):                        200.82    
+P99 TTFT (ms):                           738.54    
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          16.52     
+Median TPOT (ms):                        14.96     
+P99 TPOT (ms):                           33.33     
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           24.72     
+Median ITL (ms):                         14.88     
+P99 ITL (ms):                            182.76    
+---------------Speculative Decoding---------------
+Acceptance rate (%):                     81.95     
+Acceptance length:                       3.33      
+Drafts:                                  466       
+Draft tokens:                            1324      
+Accepted tokens:                         1085      
+Per-position acceptance (%):
+  Position 0:                            85.62     
+  Position 1:                            75.32     
+  Position 2:                            71.89     
+==================================================

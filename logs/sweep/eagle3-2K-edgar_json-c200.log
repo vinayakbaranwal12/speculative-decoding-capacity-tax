@@ -1,0 +1,50 @@
+CMD vllm bench serve --backend openai --base-url http://127.0.0.1:8000 --model Qwen/Qwen3-14B --endpoint /v1/completions --dataset-name random --num-prompts 1600 --max-concurrency 200 --random-input-len 1784 --random-output-len 320 --ignore-eos --save-result --result-filename /root/mktg3389/logs/sweep/eagle3-2K-edgar_json-c200.bench.json --save-detailed
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Namespace(subparser='bench', bench_type='serve', dispatch_function=<function BenchmarkServingSubcommand.cmd at 0x7fd6d091db40>, trust_remote_code=False, seed=0, num_prompts=1600, dataset_name='random', no_stream=False, dataset_path=None, no_oversample=False, skip_chat_template=False, enable_multimodal_chat=False, disable_shuffle=False, custom_output_len=256, custom_ensure_client_side_data=False, spec_bench_output_len=256, spec_bench_category=None, sonnet_input_len=550, sonnet_output_len=150, sonnet_prefix_len=200, sharegpt_output_len=None, timed_trace_chunk_hash_size=16, timed_trace_sec_multiplier=1, timed_trace_label_timestamp='timestamp', timed_trace_label_input_length='input_length', timed_trace_label_output_length='output_length', timed_trace_label_hash_ids='hash_ids', blazedit_min_distance=0.0, blazedit_max_distance=1.0, asr_max_audio_len_sec=inf, asr_min_audio_len_sec=0.0, random_input_len=1784, random_output_len=320, random_range_ratio='0.0', random_prefix_len=0, random_batch_size=1, no_reranker=False, random_mm_base_items_per_request=1, random_mm_num_mm_items_range_ratio=0.0, random_mm_limit_mm_per_prompt={'image': 255, 'video': 1}, random_mm_bucket_config={(256, 256, 1): 0.5, (720, 1280, 1): 0.5, (720, 1280, 16): 0.0}, hf_subset=None, hf_split=None, hf_name=None, hf_output_len=None, bfcl_categories=None, prefix_repetition_prefix_len=256, prefix_repetition_suffix_len=256, prefix_repetition_num_prefixes=10, prefix_repetition_output_len=128, speed_bench_dataset_subset='qualitative', speed_bench_output_len=4096, speed_bench_category=None, label=None, backend='openai', base_url='http://127.0.0.1:8000', host='127.0.0.1', port=8000, endpoint='/v1/completions', header=None, max_concurrency=200, model='Qwen/Qwen3-14B', input_len=None, output_len=None, tokenizer=None, tokenizer_mode='auto', use_beam_search=False, logprobs=None, request_rate=inf, burstiness=1.0, probe_request_rate=0.0, disable_tqdm=False, num_warmups=0, profile=False, save_result=True, save_detailed=True, append_result=False, metadata=None, result_dir=None, result_filename='/root/mktg3389/logs/sweep/eagle3-2K-edgar_json-c200.bench.json', ignore_eos=True, self_timed=None, percentile_metrics=None, metric_percentiles='99', goodput=None, request_id_prefix='bench-e29ee13d-', top_p=None, top_k=None, min_p=None, temperature=None, frequency_penalty=None, presence_penalty=None, repetition_penalty=None, served_model_name=None, lora_modules=None, lora_assignment='random', ramp_up_strategy=None, ramp_up_start_rps=None, ramp_up_end_rps=None, ready_check_timeout_sec=0, chat_template_kwargs=None, extra_body=None, skip_tokenizer_init=False, insecure=False, plot_timeline=False, timeline_itl_thresholds='25,50', plot_dataset_stats=False)
+INFO 09-09 17:01:29 [utils.py:90] Sampling input_len from [1784, 1784] and output_len from [320, 320]
+WARNING: vllm bench serve no longer sets temperature==0 (greedy) in requests by default. The default will be determined on the server side and can be model/API specific. For the old behavior, include --temperature=0.
+Starting initial single prompt test run...
+Skipping endpoint ready check.
+Starting main benchmark run...
+Traffic request rate: inf
+Burstiness factor: 1.0 (Poisson process)
+Maximum request concurrency: 200
+  0%|          | 0/1600 [00:00<?, ?it/s]  0%|          | 1/1600 [00:00<03:26,  7.76it/s]  0%|          | 2/1600 [00:00<03:21,  7.92it/s]  2%|▏         | 27/1600 [00:00<00:15, 102.72it/s]  3%|▎         | 50/1600 [00:00<00:10, 146.51it/s]  5%|▍         | 73/1600 [00:00<00:08, 173.38it/s]  6%|▌         | 95/1600 [00:00<00:08, 186.23it/s]  7%|▋         | 118/1600 [00:00<00:07, 199.40it/s]  9%|▉         | 141/1600 [00:00<00:07, 207.83it/s] 10%|█         | 164/1600 [00:00<00:06, 211.89it/s] 12%|█▏        | 187/1600 [00:01<00:06, 217.13it/s] 13%|█▎        | 211/1600 [00:01<00:06, 222.94it/s] 15%|█▍        | 235/1600 [00:01<00:06, 226.60it/s] 16%|█▌        | 258/1600 [00:01<00:06, 216.75it/s] 18%|█▊        | 281/1600 [00:01<00:06, 218.06it/s] 19%|█▉        | 304/1600 [00:01<00:05, 220.78it/s] 20%|██        | 327/1600 [00:01<00:06, 205.98it/s] 22%|██▏       | 353/1600 [00:01<00:05, 218.46it/s] 24%|██▎       | 377/1600 [00:01<00:05, 222.03it/s] 25%|██▌       | 401/1600 [00:02<00:05, 226.91it/s] 27%|██▋       | 425/1600 [00:02<00:05, 228.26it/s] 28%|██▊       | 448/1600 [00:02<00:05, 228.60it/s] 30%|██▉       | 473/1600 [00:02<00:04, 233.92it/s] 31%|███       | 499/1600 [00:02<00:04, 238.93it/s] 33%|███▎      | 525/1600 [00:02<00:04, 244.16it/s] 34%|███▍      | 550/1600 [00:02<00:04, 236.71it/s] 36%|███▌      | 576/1600 [00:02<00:04, 241.57it/s] 38%|███▊      | 601/1600 [00:02<00:04, 235.28it/s] 39%|███▉      | 625/1600 [00:02<00:04, 235.86it/s] 41%|████      | 649/1600 [00:03<00:04, 230.41it/s] 42%|████▏     | 673/1600 [00:03<00:04, 222.86it/s] 44%|████▎     | 698/1600 [00:03<00:03, 228.56it/s] 45%|████▌     | 721/1600 [00:03<00:03, 223.25it/s] 46%|████▋     | 744/1600 [00:03<00:03, 222.78it/s] 48%|████▊     | 767/1600 [00:03<00:03, 223.01it/s] 49%|████▉     | 790/1600 [00:03<00:04, 202.35it/s] 51%|█████     | 814/1600 [00:03<00:03, 211.13it/s] 52%|█████▏    | 839/1600 [00:03<00:03, 221.39it/s] 54%|█████▍    | 863/1600 [00:04<00:03, 225.01it/s] 56%|█████▌    | 889/1600 [00:04<00:03, 232.62it/s] 57%|█████▋    | 913/1600 [00:04<00:02, 230.76it/s] 59%|█████▊    | 937/1600 [00:04<00:02, 226.72it/s] 60%|██████    | 961/1600 [00:04<00:02, 229.49it/s] 62%|██████▏   | 985/1600 [00:04<00:02, 229.17it/s] 63%|██████▎   | 1008/1600 [00:04<00:02, 221.75it/s] 65%|██████▍   | 1033/1600 [00:04<00:02, 228.48it/s] 66%|██████▌   | 1056/1600 [00:04<00:02, 221.55it/s] 68%|██████▊   | 1081/1600 [00:05<00:02, 227.51it/s] 69%|██████▉   | 1104/1600 [00:05<00:02, 227.04it/s] 70%|███████   | 1127/1600 [00:05<00:02, 225.23it/s] 72%|███████▏  | 1150/1600 [00:05<00:02, 224.41it/s] 73%|███████▎  | 1174/1600 [00:05<00:01, 227.46it/s] 75%|███████▍  | 1197/1600 [00:05<00:01, 226.31it/s] 76%|███████▋  | 1222/1600 [00:05<00:01, 232.32it/s] 78%|███████▊  | 1246/1600 [00:05<00:01, 229.39it/s] 79%|███████▉  | 1269/1600 [00:05<00:01, 203.71it/s] 81%|████████  | 1291/1600 [00:05<00:01, 207.62it/s] 82%|████████▏ | 1315/1600 [00:06<00:01, 214.57it/s] 84%|████████▎ | 1339/1600 [00:06<00:01, 221.23it/s] 85%|████████▌ | 1366/1600 [00:06<00:01, 233.53it/s] 87%|████████▋ | 1390/1600 [00:06<00:00, 232.32it/s] 88%|████████▊ | 1414/1600 [00:06<00:00, 229.35it/s] 90%|████████▉ | 1439/1600 [00:06<00:00, 234.69it/s] 92%|█████████▏| 1465/1600 [00:06<00:00, 241.22it/s] 93%|█████████▎| 1492/1600 [00:06<00:00, 249.10it/s] 95%|█████████▍| 1518/1600 [00:06<00:00, 249.80it/s] 96%|█████████▋| 1544/1600 [00:07<00:00, 248.60it/s] 98%|█████████▊| 1569/1600 [00:07<00:00, 241.82it/s]100%|█████████▉| 1594/1600 [00:07<00:00, 238.33it/s]100%|██████████| 1600/1600 [00:07<00:00, 220.16it/s]
+/root/mktg3389/venv/lib/python3.10/site-packages/vllm/benchmarks/serve.py:1152: UserWarning: All requests failed. This is likely due to a misconfiguration on the benchmark arguments.
+  metrics, actual_output_lens = calculate_metrics(
+Failed requests during benchmark run detected (capping to 10):
+Error 0: Bad Request
+Error 1: Bad Request
+Error 2: Bad Request
+Error 3: Bad Request
+Error 4: Bad Request
+Error 5: Bad Request
+Error 6: Bad Request
+Error 7: Bad Request
+Error 8: Bad Request
+Error 9: Bad Request
+============ Serving Benchmark Result ============
+Successful requests:                     0         
+Failed requests:                         1600      
+Maximum request concurrency:             200       
+Benchmark duration (s):                  7.27      
+Total input tokens:                      0         
+Total generated tokens:                  0         
+Request throughput (req/s):              0.00      
+Output token throughput (tok/s):         0.00      
+Peak output token throughput (tok/s):    0.00      
+Peak concurrent requests:                0.00      
+Total token throughput (tok/s):          0.00      
+---------------Time to First Token----------------
+Mean TTFT (ms):                          0.00      
+Median TTFT (ms):                        0.00      
+P99 TTFT (ms):                           0.00      
+-----Time per Output Token (excl. 1st token)------
+Mean TPOT (ms):                          0.00      
+Median TPOT (ms):                        0.00      
+P99 TPOT (ms):                           0.00      
+---------------Inter-token Latency----------------
+Mean ITL (ms):                           0.00      
+Median ITL (ms):                         0.00      
+P99 ITL (ms):                            0.00      
+==================================================
